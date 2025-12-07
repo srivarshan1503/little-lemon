@@ -6,10 +6,18 @@ import Chicago from './Chicago';
 function Homepage() {
     return (
         <>
-            <CallToAction/>
-            <Specials/>
-            <CustomerSays/>
-            <Chicago/>
+            <section id='reserve'>
+                <CallToAction />
+            </section>
+            <section id='menu' >
+                <Specials/>
+            </section>
+            <section id='review'>
+                <CustomerSays/>
+            </section>
+            <section id='about'>
+                <Chicago/>
+            </section>    
         </>
     );
 }

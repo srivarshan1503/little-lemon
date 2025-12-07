@@ -1,6 +1,6 @@
 function BookingForm() {
     return (
-        <form style={{display: "grid",maxWidth: "200px", gap: "20px"}}>
+        <form style={{display: "grid",width:"100%", gap: "20px"}} className="form">
             <label for="res-date">Choose date</label>
             <input type="date" id="res-date"/>
             <label for="res-time">Choose time</label>
@@ -19,7 +19,7 @@ function BookingForm() {
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
-            <input type="submit" value="Make Your reservation"/>
+            <button type="submit">Make Your reservation</button>
         </form>
     );
 }

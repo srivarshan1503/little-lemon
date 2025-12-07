@@ -2,7 +2,10 @@ import BookingForm from './BookingForm';
 
 function BookingPage() {
     return (
-        <BookingForm/>
+        <div className='bookingform'>
+            <BookingForm/>
+        </div>
+        
     );
 }
 

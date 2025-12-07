@@ -15,20 +15,21 @@ function Footer() {
                     <li>Login</li>
                 </ul>
             </div>
-            <div className="foooter-contact">
+            <div className="footer-contact">
                 <h1>Contact</h1>
                 <ul>
-                    <li>Address</li>
-                    <li>Phone number</li>
-                    <li>email</li>
+                    <li>south street<br/>kingstown palace<br/>chicago</li>
+                    <li>9087604224</li>
+                    <li>littlelemon@gmail.com</li>
+                    
                 </ul>
             </div>
             <div className="media-links">
                 <h1>Social Media Links</h1>
                 <ul>
-                    <li>Address</li>
-                    <li>Phone number</li>
-                    <li>email</li>
+                    <li>littlelemon</li>
+                    <li>littlelemon</li>
+                    <li>littlelemon@gmail.com</li>
                 </ul>
             </div>
         </footer>

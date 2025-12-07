@@ -8,7 +8,7 @@ const customers = [
 ]
 function CustomerSays() {
     return (
-        <>
+        <div className = "customersays">
             <h1>What our customer says ?</h1>
             <div className='Customers'>
                 {
@@ -17,7 +17,7 @@ function CustomerSays() {
                 ))
                 }
             </div>
-        </>
+        </div>
     );
 }
 
